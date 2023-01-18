@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/funbox-qt/static/js/main.d60ef5f0.js",
+    "main.js": "/funbox-qt/static/js/main.fef00e83.js",
     "index.html": "/funbox-qt/index.html",
-    "main.d60ef5f0.js.map": "/funbox-qt/static/js/main.d60ef5f0.js.map"
+    "main.fef00e83.js.map": "/funbox-qt/static/js/main.fef00e83.js.map"
   },
   "entrypoints": [
-    "static/js/main.d60ef5f0.js"
+    "static/js/main.fef00e83.js"
   ]
 }
