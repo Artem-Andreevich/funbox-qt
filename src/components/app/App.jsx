@@ -14,7 +14,7 @@ export default class App extends Component {
         ]
     }
 
-    createItem(title, subTitle, weight, select, disable, bottomText, ...args) {
+    createItem(title, subTitle, weight, select, disable, bottomText, ...description) {
         return {
             title,
             subTitle,
@@ -23,7 +23,7 @@ export default class App extends Component {
             disable,
             bottomText,
             id: this.id++,
-            description: [...args]
+            description: [...description]
         }
     }
 
@@ -44,7 +44,6 @@ export default class App extends Component {
             }
         })
     }
-
 
     render() {
         return (
